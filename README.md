@@ -7,27 +7,6 @@ A clean, consolidated repository for:
 
 ---
 
-## 📁 Structure
-
-```
-ai-dsa-roadmap-2025/
-│
-├── prompts/               # RACE prompts, summary prompts, JSON prompts
-├── dsa/                   # Weekly DSA pattern practice
-├── projects/
-│   ├── tender_summary/    # Tender summary generator
-│   ├── rag_project/       # Simple RAG prototype
-│   └── gita_explainer/    # Gita explanation system
-├── notes/
-│   ├── reflections/
-│   └── technical/
-└── experiments/
-    ├── temp_vs_top_p/
-    └── embeddings_playground/
-```
-
----
-
 ## 🧠 AI + DSA Roadmap (Minimal Overview)
 
 ### **AI Focus**
