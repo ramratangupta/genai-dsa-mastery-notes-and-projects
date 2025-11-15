@@ -370,25 +370,6 @@ It’s dynamic.
 | Only sum/max/min for size k                         | ❌ Dynamic → ✔️ Fixed |
 ---
 
-## ⚙️ **3. Template (You Must Memorize This)**
-
-```
-left = 0
-for right in range(len(s)):
-    # expand window
-    # update frequency map / logic
-
-    while condition_is_invalid:
-        # shrink window
-        left += 1
-
-    # update answer
-```
-
-Almost every sliding-window solution uses this.
-
----
-
 
 
 ✅ Do we need **start** and **end** pointers in BOTH fixed and dynamic windows?
