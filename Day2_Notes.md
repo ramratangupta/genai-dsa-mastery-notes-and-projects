@@ -497,12 +497,12 @@ Start moves **only when needed**.
 
 ---
 
-# 🟢 Final Answer (Short)
+### 🟢 Final Answer (Short)
 
 > ✔️ YES — you always use **start** and **end** pointers in both fixed and dynamic sliding windows.
 > ❗ BUT in fixed windows both move together, in dynamic windows only `end` moves always and `start` moves when condition breaks.
 
-## ✅ Easy
+## ✅ Easy Problems
 
 1. Given an array of integers and an integer k, find the **maximum sum** of any contiguous subarray of size k. — *Hint: fixed window (size = k)*.
 2. Given an array of positive integers and a positive number S, find the **length of the smallest contiguous subarray** whose sum is ≥ S. — *Hint: variable window (expand/shrink)*.
@@ -515,7 +515,7 @@ Start moves **only when needed**.
 
 ---
 
-### 🟡 Medium
+## 🟡 Medium Problems
 
 9. Given two strings s and t, find the **minimum window in s** which will contain all the characters in t (including duplicates). — *Hint: variable window (expand until cover t, then shrink)*.
 10. Given a string consisting of only three characters (for example ‘a’, ‘b’, ‘c’), count how many **substrings contain at least one of each character**. — *Hint: variable window (track counts of the three chars)*.
@@ -527,7 +527,7 @@ Start moves **only when needed**.
 
 ---
 
-### 🔴 Hard
+## 🔴 Hard Problems
 
 16. Given an array of integers and window size k, compute the **sum of minimum and maximum elements** of every contiguous subarray of size k. — *Hint: fixed window (size = k, need track min & max efficiently)*.
 17. Given a string and an integer k, find the **length of the longest substring** such that each character in the substring appears **at least k times**. — *Hint: variable window (complex constraint on counts)*.
