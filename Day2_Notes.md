@@ -1,4 +1,3 @@
-[[TOC]]
 # 🌿 **1. What are Embeddings?**
 
 Embeddings are **vectors (lists of numbers)** that capture the **meaning** of text.
