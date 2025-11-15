@@ -1,3 +1,4 @@
+[[TOC]]
 # 🌿 **1. What are Embeddings?**
 
 Embeddings are **vectors (lists of numbers)** that capture the **meaning** of text.
@@ -193,15 +194,6 @@ Here’s an easy-to-understand explanation of **Cosine similarity** (for beginne
 
 - Imagine two arrows (vectors) coming out of the same point, each pointing in some direction. Cosine similarity measures **how closely those arrows point in the same direction**.
 - In the context of text, images or “embeddings” (numerical representations of data) we turn each item into a vector and compare them. If two items are “about the same thing,” their vectors will point in similar directions (small angle between them) → high cosine similarity.
-- The mathematical formula:
-  [
-  \text{cosine similarity} = \frac{A \cdot B}{|A| \times |B|}
-  ]
-  where:
-
-  - (A \cdot B) = dot product (multiply matching components and sum)
-  - (|A|) = magnitude (length) of vector (A)
-  - (|B|) = magnitude of vector (B)
 
 ---
 
