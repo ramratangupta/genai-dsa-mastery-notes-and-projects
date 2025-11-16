@@ -136,13 +136,47 @@ Pick any 2 sentences:
 
 Ask AI:
 **“Show me embeddings for both sentences and compute cosine similarity.”**
+### Example 1
+I love heartfulness meditation. v1 = [0.12, 0.55, 0.33, 0.80, 0.10]
+I love my wife. v2 = [0.20, 0.60, 0.25, 0.70, 0.05]
+![Cosine Similarity Calculation](./images/CosineSimilarityCalculation.png)
+Cosine similarity ≈ 0.975
+
+This high similarity aligns with the intuition that both sentences share the emotional pattern “I love …”, even though the objects differ.
+
+### Example 2
+I love heartfulness meditation. v1 = [0.20, 0.58, 0.31, 0.80, 0.10]
+The lion king loved his son Simba. v2 = [0.40, 0.20, 0.55, 0.15, 0.30]
+![Cosine Similarity Calculation](./images/CosineSimilarityCalculation-v1.png)
+Cosine similarity ≈ ≈0.595
+✅ Final Result
+### **Cosine similarity ≈ 0.60**
+
+Why so low?
+
+* The first sentence is about **personal spiritual practice**.
+* The second is a **story-based statement about a fictional character and his son**.
+* The only shared theme is “love,” but the meaning context is very different.
+
+### Example 3
+I love heartfulness meditation. v1 = [0.22, 0.60, 0.35, 0.78, 0.12]
+The test was yuck. v2 = [0.05, 0.15, -0.40, 0.10, -0.30]
+![Cosine Similarity Calculation](./images/CosineSimilarityCalculation-v2.png)
+Cosine similarity ≈0.005
+✅ Final Result
+
+### **Cosine similarity ≈ 0.01 (almost zero)**
+
+Why so low?
+
+* First sentence expresses **positive emotions + spirituality**.
+* Second sentence is **negative + unrelated to emotion type or topic**.
+* They share **almost no semantic overlap**, so the similarity approaches zero.
 
 Expected result:
 
 * Similar meaning → ~0.7–0.9
 * Different meaning → <0.4
-
-This builds your intuition for semantic search.
 
 ---
 
