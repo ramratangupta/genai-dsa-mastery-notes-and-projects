@@ -730,19 +730,6 @@ If dynamic → distance changes
 
 ---
 
-# 🌟 PART 5 — Want a VISUAL ANIMATED DIAGRAM?
-
-If you want, I can draw:
-
-* ASCII-art animations
-* color-coded windows
-* step-by-step dynamic window simulation for any problem you choose
-
-Just say:
-**“Animate fixed window”**
-or
-**“Animate dynamic window for <problem>”**
-
 ## ✅ Easy Problems
 
 1. Given an array of integers and an integer k, find the **maximum sum** of any contiguous subarray of size k. — *Hint: fixed window (size = k)*.
