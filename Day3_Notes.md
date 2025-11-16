@@ -1,0 +1,260 @@
+# 🌟 **DAY 3 — AI + DSA Activity (2 hours)**
+
+# 🧠 **AI — Day 3 (60 minutes)**
+
+## **Topic: RAG Stage 1 — Chunking + Embeddings → Practical Understanding**
+
+
+## ⭐ **Activity 1: Chunking Experiment (15 min)**
+
+Take any text from your Gita files or Tender documents.
+- I created a text file from URL [Mastering the Four Listening Skills](https://heartfulness.org/magazine/essential-listening-skills)
+- I did ctrl + a on webpage
+- I did paste in a [text file](./experiments/embeddings_playground/essential-listening-skills.txt)
+- I mannualy cleaned
+    - Header Text
+    - All alt Text for images
+    - Footer Text
+    - Put URL on top so that I knew from where I started
+
+### Step 1
+
+Paste a long paragraph.
+- I uploaded the [text file](./experiments/embeddings_playground/essential-listening-skills.txt) which created to ChatGPT
+
+### Step 2
+
+Cut it into these chunk sizes:
+
+* 100 tokens
+* 200 tokens
+* 400 tokens
+- I asked to cut into tokens
+- ChatGPT asked what type of token LLM token or word based token?
+- As a beiginer I was not sure I went for word based, as LLM token will have diffrent meaning model to model.
+- It does
+
+### Step 3
+
+Ask AI:
+**“Which chunk size preserves meaning best?”**
+
+You will *feel* the difference instantly.
+
+---
+
+# ⭐ Which chunk size preserves meaning the best?
+
+## **1️⃣ 100-word chunks**
+
+100-word chunks usually **break the flow** too often.
+
+* Sentences get cut mid-story
+* Examples (Princess Diana, Jimmy Carter, Merkel) get split
+* The reader loses context
+* Meaning becomes harder to follow
+
+👉 **Good for small embeddings or ML**,
+❌ **Not good for humans trying to understand the article.**
+
+---
+
+## **2️⃣ 200-word chunks**
+
+200-word chunks generally preserve meaning better because:
+
+* A full idea or example fits inside one chunk
+* Less interruption than 100-word pieces
+* Flow is smoother
+* Still easy to process and read
+
+👉 **This size keeps concepts together**, like:
+
+* Active Listening section (full meaning stays intact)
+* Deep Listening section (almost entirely together)
+
+This is usually the “sweet spot” for beginners.
+
+---
+
+## **3️⃣ 400-word chunks**
+
+400-word chunks preserve the meaning the most because:
+
+* Whole sections stay together
+* Stories and examples stay complete
+* The reader gets full context
+* Very little cutting between topics
+
+But the downside:
+
+* A beginner may find them too long
+* Harder to use if the task is for practice, chunking, embeddings, etc.
+
+👉 **Most meaning preserved, but less beginner-friendly to read or process.**
+
+---
+
+# 🎉 **Beginner-friendly conclusion**
+
+### ✔ **Best for meaning = 400-word chunks**
+
+They keep entire stories and ideas together.
+
+### ✔ **Best balance for learning = 200-word chunks**
+
+They are easy to read, not too long, and don’t break ideas too much.
+
+### ❌ **Not recommended for meaning = 100-word chunks**
+
+They break concepts into pieces and disrupt understanding.
+
+---
+
+# 📘 Simple beginner explanation
+
+Think of the text like a long movie:
+
+* **100-word chunks** = cutting the movie every 5 minutes → you forget what’s happening
+* **200-word chunks** = cutting every 10 minutes → still smooth
+* **400-word chunks** = cutting only once halfway → almost whole story stays intact
+
+So:
+
+👉 Want full meaning? → **400**
+👉 Want easy learning + good meaning? → **200**
+👉 Want tiny pieces? → **100** (but meaning suffers)
+[See ChatGPT convesation](https://chatgpt.com/share/6919db41-f408-800d-9364-0e51700b93e7)
+---
+
+## ⭐ **Activity 2: Embeddings Similarity Test (20 min)**
+
+Pick any 2 sentences:
+
+* one similar
+* one different
+
+Ask AI:
+**“Show me embeddings for both sentences and compute cosine similarity.”**
+
+Expected result:
+
+* Similar meaning → ~0.7–0.9
+* Different meaning → <0.4
+
+This builds your intuition for semantic search.
+
+---
+
+## ⭐ **Activity 3: Build Your Own Simple RAG Prompt (25 min)**
+
+Paste this template and modify it:
+
+```
+You are a semantic RAG test agent.
+Given the following chunks:
+
+[chunk1]
+[chunk2]
+[chunk3]
+
+and the question:
+[my question]
+
+1. Identify the most relevant chunk.
+2. Explain why it was selected.
+3. Answer the question using only that chunk.
+```
+
+This is your **first working RAG** (manual version).
+Tomorrow we make the automatic version.
+
+---
+
+# 🌿 **DSA — Day 3 (60 minutes)**
+
+## **Topic: Sliding Window — Confidence Day**
+
+Yesterday you learned the concept.
+Today you **implement** it mentally + with code.
+
+---
+
+# ⭐ **Activity 1: Dry Run (15 min)**
+
+Hand-run the window movement for:
+**“Longest substring without repeating characters”**
+
+Track:
+
+* left pointer
+* right pointer
+* set/map contents
+* max length
+
+This builds pattern intuition.
+
+---
+
+# ⭐ **Activity 2: Code the Template (20 min)**
+
+Write (or copy) the generic window template:
+
+```
+left = 0
+window = {}
+
+for right in range(len(s)):
+    # expand
+
+    while condition invalid:
+        # shrink
+        left += 1
+
+    # update result
+```
+
+This will become muscle memory.
+
+---
+
+# ⭐ **Activity 3: Solve 1 Window Problem (25 min)**
+
+Choose ONE:
+
+* Maximum sum subarray (size k)
+* Longest substring without repeating characters
+* Minimum window substring (hard)
+
+Pick **only one** today.
+
+---
+
+# 🌱 **Reflection (2 min)**
+
+Write 2 lines:
+
+1️⃣ What did I understand today about chunking or embeddings?
+2️⃣ What did I understand today about sliding window?
+
+Put the reflection into your folder:
+
+```
+/notes/reflections/day3.md
+```
+
+---
+
+# ⭐ Optional Add-Ons (if you have time)
+
+* I can generate a **Day 3 Quiz (AI + DSA)**
+* I can create a **Chunking Visual Diagram**
+* I can create **Sliding Window Visualizations**
+* I can setup your **first RAG pipeline folder**
+
+If you want any of these, just say:
+👉 **“Give visuals”** or **“Create quiz”** or **“Setup RAG folder”**
+
+---
+
+Your Day 3 plan is ready, focused, balanced, and gentle.
