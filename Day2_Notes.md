@@ -732,7 +732,7 @@ If dynamic → distance changes
 
 ## ✅ Easy Problems
 
-1. Given an array of integers and an integer k, find the **maximum sum** of any contiguous subarray of size k. — *Hint: fixed window (size = k)*.
+1. [Given an array of integers and an integer k, find the **maximum sum** of any contiguous subarray of size k](./dsa/week1_arrays_strings/sliding_window/problem1.js). — *Hint: fixed window (size = k)*.
 2. Given an array of positive integers and a positive number S, find the **length of the smallest contiguous subarray** whose sum is ≥ S. — *Hint: variable window (expand/shrink)*.
 3. Given a string, find the **length of the longest substring without repeating characters**. — *Hint: variable window (shrink when repeat)*.
 4. Given a string s and a non-empty string p, find **all start indices in s of p’s anagrams**. — *Hint: fixed window (size = |p|)*.
