@@ -182,26 +182,54 @@ Expected result:
 
 ## ⭐ **Activity 3: Build Your Own Simple RAG Prompt (25 min)**
 
-Paste this template and modify it:
-
-```
 You are a semantic RAG test agent.
 Given the following chunks:
 
-[chunk1]
-[chunk2]
-[chunk3]
+https://heartfulness.org/magazine/essential-listening-skills The Heartful Listener – Part Six RAVI VENKATESAN continues his Heartful Listener series with part six, transforming listening from intention to skill and demonstrating that even with the best mindset, effective listening must be practiced, honed, and embodied. In the previous articles of this series, we explored the State of Being, the Qualities, and the Behaviors that elevate our capacity to listen. But even with the best mindset, heart, and intentions, listening remains a learned skill—one that must be practiced, honed, and embodied. This part focuses on the four essential skills that make listening truly effective: Active Listening Deep Listening Professional Listening
 
-and the question:
-[my question]
+https://heartfulness.org/magazine/essential-listening-skills The Heartful Listener – Part Six RAVI VENKATESAN continues his Heartful Listener series with part six, transforming listening from intention to skill and demonstrating that even with the best mindset, effective listening must be practiced, honed, and embodied. In the previous articles of this series, we explored the State of Being, the Qualities, and the Behaviors that elevate our capacity to listen. But even with the best mindset, heart, and intentions, listening remains a learned skill—one that must be practiced, honed, and embodied. This part focuses on the four essential skills that make listening truly effective: Active Listening Deep Listening Professional Listening Centering Active Listening – Engagement in the Moment Active listening involves giving full, engaged attention, providing verbal affirmation, and using body language cues that let the speaker know they are being heard, valued, and understood. Practices: Maintain eye contact, nod occasionally. Use brief verbal responses (“I see,” “Go on,” “That makes sense.”) Reflect and summarize what you heard. Princess Diana was often called “the people’s princess” not just for her causes, but because of the way she listened. In hospital visits, she would kneel to eye level, hold hands, and listen silently to patients’ stories. Her presence alone made people cry—not from grief, but from feeling heard. Deep Listening – Hearing Beyond Words Deep listening is a contemplative and intuitive skill that
+
+https://heartfulness.org/magazine/essential-listening-skills The Heartful Listener – Part Six RAVI VENKATESAN continues his Heartful Listener series with part six, transforming listening from intention to skill and demonstrating that even with the best mindset, effective listening must be practiced, honed, and embodied. In the previous articles of this series, we explored the State of Being, the Qualities, and the Behaviors that elevate our capacity to listen. But even with the best mindset, heart, and intentions, listening remains a learned skill—one that must be practiced, honed, and embodied. This part focuses on the four essential skills that make listening truly effective: Active Listening Deep Listening Professional Listening Centering Active Listening – Engagement in the Moment Active listening involves giving full, engaged attention, providing verbal affirmation, and using body language cues that let the speaker know they are being heard, valued, and understood. Practices: Maintain eye contact, nod occasionally. Use brief verbal responses (“I see,” “Go on,” “That makes sense.”) Reflect and summarize what you heard. Princess Diana was often called “the people’s princess” not just for her causes, but because of the way she listened. In hospital visits, she would kneel to eye level, hold hands, and listen silently to patients’ stories. Her presence alone made people cry—not from grief, but from feeling heard. Deep Listening – Hearing Beyond Words Deep listening is a contemplative and intuitive skill that involves listening for emotions, silences, body language, and what’s not said. Practices: Observe tone, emotion, and energy shifts. Resist interrupting or “solving.” Pause after they speak, allowing them to go deeper. A great example of this is Jimmy Carter at the Camp David Accords: In 1978, U.S. President Jimmy Carter brokered peace between Egypt’s Anwar Sadat and Israel’s Menachem Begin. Carter’s approach was not tactical negotiation—it was deep, heartful listening. Sadat later said, “He did not lecture us. He let us be heard—and in being heard, we changed.” Professional Listening – Strategic, Ethical, Impact-Oriented Professional listening involves ethical discernment, analytic clarity, and listening for patterns, gaps, or underlying challenges in high-stakes environments. Practices: Separate personal bias from strategic understanding. Document carefully and confirm shared understanding. Listen for solutions, but don’t jump to them too quickly. During the Eurozone crisis, Chancellor Angela Merkel was known for quietly listening in hours-long meetings. She would often summarize at the end, having absorbed and integrated every view.
+
+My questions
 
 1. Identify the most relevant chunk.
 2. Explain why it was selected.
-3. Answer the question using only that chunk.
-```
+3. Answer the question below using only that chunk.
+- Create A Tweet with hashtags
 
 This is your **first working RAG** (manual version).
-Tomorrow we make the automatic version.
+
+Here are the results, following your semantic-RAG steps:
+
+---
+
+### **1. Most relevant chunk**
+
+**Chunk 3** (the longest one with full details on Active, Deep, and Professional Listening).
+
+---
+
+### **2. Why this chunk was selected**
+
+Chunk 3 is the only one that contains the **complete set of all three listening skills**, including:
+
+* Definitions
+* Practices
+* Real-world examples (Princess Diana, Jimmy Carter, Angela Merkel)
+
+Because your task is to **create a tweet**, the richest and most complete chunk provides the strongest semantic grounding.
+
+---
+
+### **3. Tweet (based only on the selected chunk)**
+
+*No claims beyond the chunk.*
+
+Listening isn’t just intention—it’s a skill.
+Active Listening. Deep Listening. Professional Listening.
+When we truly hear others, we create space for trust, clarity, and understanding.
+#Heartfulness #ActiveListening #DeepListening #ProfessionalListening #Leadership #Empathy
 
 ---
 
